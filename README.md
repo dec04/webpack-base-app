@@ -11,26 +11,26 @@ npm install
 ```
 
 When it done
+use this for developer mode
 
 ```bash
 npm run dev
 ```
-for developer mode
-
+for production
 ```bash
 npm run build
 ```
-for production
+for dev-server and hot reloading (on htpp://127.0.0.1:4200)
 
 ```bash
 npm run start
 ```
-for dev-server
+for webpack-analyze (default on htpp://127.0.0.1:8888)
 
 ```bash
 npm run stats
 ```
-for webpack-analyze (default on htpp://127.0.0.1:8888)
+
 
 Ohter setting in **_package.json_** and webpack settings in **_webpack.config.js_**
 
