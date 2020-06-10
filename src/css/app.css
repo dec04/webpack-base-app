@@ -1,0 +1,37 @@
+@import "~normalize.css";
+@import "plex-font.css";
+
+body {
+    font-family: "Plex", sans-serif;
+}
+
+.wp-container {
+    padding-top: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.wp-image {
+    background-image: url("../assets/img/logo_demo_512.png");
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    margin: 2rem auto;
+}
+
+.wp-image-small {
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    margin: 2rem auto;
+}
+
+.wp-code {
+    margin: 2rem auto;
+    font-family: monospace;
+    color: crimson;
+}
