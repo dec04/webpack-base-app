@@ -1,8 +1,8 @@
 {
   "name": "webpack-base-app",
   "version": "1.0.0",
-  "description": "webpack base application by dec04",
-  "private": true,
+  "description": "Webpack base application with babel, preprocessors and other features",
+  "main": "./dist/index.html",
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack --mode development",
     "dev-w": "cross-env NODE_ENV=development webpack --mode development --watch",
@@ -12,11 +12,25 @@
   },
   "author": "dec04 <dmedia.decoy@gmail.com>",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dec04/webpack-base-app.git"
+  },
+  "keywords": [
+    "webpack complete application",
+    "webpack",
+    "webpack react"
+  ],
+  "bugs": {
+    "url": "https://github.com/dec04/webpack-base-app/issues"
+  },
+  "homepage": "https://github.com/dec04/webpack-base-app",
   "devDependencies": {
     "@babel/core": "^7.10.2",
     "@babel/preset-env": "^7.10.2",
     "@babel/preset-react": "^7.10.1",
     "@babel/preset-typescript": "^7.10.1",
+    "autoprefixer": "^10.0.1",
     "babel-loader": "^8.1.0",
     "clean-webpack-plugin": "^3.0.0",
     "copy-webpack-plugin": "^6.0.2",
@@ -29,6 +43,8 @@
     "mini-css-extract-plugin": "^0.9.0",
     "node-sass": "^4.14.1",
     "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "postcss": "^8.1.2",
+    "postcss-loader": "^4.0.4",
     "sass-loader": "^8.0.2",
     "style-loader": "^1.2.1",
     "terser-webpack-plugin": "^3.0.3",
@@ -41,10 +57,12 @@
   "dependencies": {
     "@babel/polyfill": "^7.10.1",
     "jquery": "^3.5.1",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.20",
     "normalize.css": "^8.0.1",
+    "postcss-preset-env": "^6.7.0",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "tailwindcss": "^1.9.5"
   },
   "browserslist": "> 0.25%, not dead"
 }

@@ -1,6 +1,13 @@
 @import "~normalize.css";
 @import "plex-font.css";
 
+/*noinspection CssInvalidAtRule*/
+@tailwind base;
+/*noinspection CssInvalidAtRule*/
+@tailwind components;
+/*noinspection CssInvalidAtRule*/
+@tailwind utilities;
+
 body {
     font-family: "Plex", sans-serif;
 }

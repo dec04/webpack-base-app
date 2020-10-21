@@ -21,7 +21,8 @@ const cssLoaders = extra => {
                 reloadAll: true
             }
         },
-        "css-loader"
+        "css-loader",
+        "postcss-loader"
     ]
 
     if (extra)
