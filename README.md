@@ -1,3 +1,5 @@
+![CodeQL](https://github.com/dec04/webpack-base-app/workflows/CodeQL/badge.svg)
+
 # Webpack base application
 
 ## Simple preconfigured webpack application. 
