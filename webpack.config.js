@@ -89,6 +89,7 @@ const plugins = () => {
     return base
 }
 
+// noinspection WebpackConfigHighlighting
 module.exports = {
     context: path.resolve(__dirname, "src"),
     mode: "development",

@@ -3,7 +3,7 @@
 * */
 
 async function start() {
-    return await Promise.resolve("async is working")
+    return "async is working";
 }
 
 start().then(console.log)
