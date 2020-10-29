@@ -9,4 +9,7 @@ const MyReactComponent = () => {
     )
 }
 
-render(<MyReactComponent />, document.getElementById("react-test"))
+const el = document.getElementById("react-test")
+
+if (!!el)
+    render(<MyReactComponent />, el)
