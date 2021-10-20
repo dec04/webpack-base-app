@@ -22,12 +22,12 @@ for production
 ```bash
 npm run build
 ```
-for dev-server and hot reloading (on htpp://127.0.0.1:4200)
+for dev-server and hot reloading (on http://127.0.0.1:4200)
 
 ```bash
 npm run start
 ```
-for webpack-analyze (default on htpp://127.0.0.1:8888)
+for webpack-analyze (default on http://127.0.0.1:8888)
 
 ```bash
 npm run stats
